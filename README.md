@@ -1,7 +1,5 @@
-# credit-card-fraud-detection
-Credit card fraud detection using Logistic Regression with EDA and class imbalance analysis
-
 # Credit Card Fraud Detection System
+Credit card fraud detection using Logistic Regression with EDA and class imbalance analysis
 
 ## Overview
 This project focuses on detecting fraudulent credit card transactions using machine learning.  
