@@ -78,7 +78,7 @@ A simple **Gradio-based GUI** was built to simulate real-time fraud detection.
 Users can input transaction details and instantly see whether the transaction is predicted as fraudulent or not.
 The interface accepts Time and Amount as inputs and outputs a fraud prediction.
 
-You can try the interactive demo yourself, see** DEMO.md** in this repository for the link.
+You can try the interactive demo yourself, see **DEMO.md** in this repository for the link.
 
 ---
 
