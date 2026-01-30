@@ -12,7 +12,8 @@ A key challenge in this project is **class imbalance**, since fraud cases are ve
 ---
 
 ## Dataset
-- **Source:** Kaggle Credit Card Fraud Dataset  
+- Get the dataset I used in this system from:
+**Source:** [Kaggle Credit Card Fraud Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 - The dataset is anonymized for privacy.
 - Features **V1–V28** are PCA-transformed and do not have direct real-world meaning.
 - I used only **Time** and **Amount** as input features because they are interpretable.
@@ -38,6 +39,7 @@ This repository contains **two notebooks**:
 - Training Logistic Regression on balanced data
 - Performance comparison with the unbalanced model
 - Shows how balancing affects accuracy and fraud detection
+- SMOTE (Synthetic Minority Oversampling Technique) was used to generate synthetic fraud samples to balance the training data.
 
 ---
 
@@ -48,6 +50,8 @@ This repository contains **two notebooks**:
   - Scatter plot (Time vs Amount)
   - Correlation heatmap
 - These graphs help understand why fraud detection is a challenging problem.
+
+The dataset contains 17,836 non-fraud transactions and only 81 fraud cases, making fraud less than 0.5% of all transactions.
 
 ---
 
@@ -72,6 +76,7 @@ This allowed a direct comparison between both approaches.
 ## Deployment
 A simple **Gradio-based GUI** was built to simulate real-time fraud detection.  
 Users can input transaction details and instantly see whether the transaction is predicted as fraudulent or not.
+The interface accepts Time and Amount as inputs and outputs a fraud prediction.
 
 ---
 
