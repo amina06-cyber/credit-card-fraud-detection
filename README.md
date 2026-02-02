@@ -70,6 +70,13 @@ This allowed a direct comparison between both approaches.
 - For this project, the unbalanced model was selected as the final system, while the balanced model is included as an experiment to demonstrate understanding of class imbalance.
 
 ---
+##Insights
+- Unbalanced model achieves high overall accuracy but lower fraud recall.
+- Balanced model improves fraud detection but reduces overall accuracy.
+- Demonstrates trade-offs in class imbalance and model evaluation metrics.
+- Highlights importance of precision, recall, and F1-score over raw accuracy in fraud detection.
+
+---
 
 ## Deployment
 A simple **Gradio-based GUI** was built to simulate real-time fraud detection.  
