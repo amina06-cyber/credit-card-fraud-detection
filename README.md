@@ -92,5 +92,4 @@ You can try the interactive demo yourself, see **DEMO.md** in this repository fo
 
 ## Author
 
-Amina
-
+Amina, Information Technology university 
